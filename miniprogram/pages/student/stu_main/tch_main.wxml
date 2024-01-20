@@ -1,0 +1,21 @@
+<view class="headerbar" hover-class="barhov" bind:tap="change">
+<text>{{class}} </text>
+<image class="icon" src="{{icpath}}" mode="heightFix"/>
+</view>
+<scroll-view class="funcbox">
+	<navigator url="/pages/func/func1/func1" class="func">
+			课堂抢答
+	</navigator>
+	<navigator url="/pages/func/func2/func2" class="func">
+			随机提问
+	</navigator>
+	<navigator url="/pages/func/func3/func3" class="func">
+			在线签到
+	</navigator>
+	<navigator url="/pages/func/func4/func4" class="func">
+			课堂展示
+	</navigator>
+	<navigator url="/pages/func/func5/func5" class="func">
+			同班组队
+	</navigator>
+</scroll-view>
