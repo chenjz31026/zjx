@@ -1,0 +1,44 @@
+.QDname{
+  text-align: center;
+  background-color: rgb(52, 215, 236);
+  font-family: 等线;
+  padding: 20rpx;
+  font-size: large;
+  font-weight:bolder;
+}
+.QDname .fontcolor{
+  color: white;
+}
+.QDwaiting{
+  text-align: center;
+  padding: 50rpx;
+  background-color: rgb(231, 230, 230);
+}
+.countdown {
+  /* background-color:lightgrey; */
+  height: 500rpx;
+  padding: 40rpx;
+}
+
+.nickname-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 16px;
+  box-sizing: border-box;
+  border-top: .5px solid rgba(0, 0, 0, 0.1);
+  border-bottom: .5px solid rgba(0, 0, 0, 0.1);
+  color: black;
+}
+
+
+/* 以下为分隔线 */
+.separator{
+  width: 100%;
+  height: 1px;
+  background-color:black;
+}
+.whiteblock{
+  height: 200rpx;
+}

@@ -1,0 +1,25 @@
+<view class="QDname">
+  <text class="fontcolor">抢答</text>
+</view>
+
+<!-- 分隔线 -->
+<view class="separator"></view>
+
+<view class="QDwaiting" wx:if="{{isnSub}}">
+  <text decode>等待教师发布抢答……&nbsp;&nbsp;&nbsp;&nbsp;</text>
+  <icon type="waiting"/>
+</view>
+
+<view class="QDwaiting" wx:if="{{!isnSub}}">
+  <text decode>老师已发起抢答&nbsp;&nbsp;&nbsp;&nbsp;</text>
+</view>
+
+<!-- 分隔线 -->
+<view class="separator"></view>
+<view class="whiteblock"></view>
+
+<view class="nickname-wrapper">
+  <text class="nickname-label">学号：</text>
+  <input type="text" class="nickname-input" placeholder="请输入学号" bindinput="oninput"/>
+  <button type="primary" class="numbersubmit" size="mini" bind:tap="onsubmit">提交</button>
+</view>
