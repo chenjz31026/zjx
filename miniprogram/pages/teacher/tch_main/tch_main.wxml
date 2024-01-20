@@ -1,0 +1,21 @@
+<view class="headerbar" bind:tap="change">
+<text>{{class}} </text>
+<image class="icon" src="{{icpath}}" mode="heightFix"/>
+</view>
+<scroll-view class="funcbox">
+	<navigator url="/pages/teacher/tch_func/func1/func1" class="func">
+			学生抢答
+	</navigator>
+	<navigator url="/pages/teacher/tch_func/func2/func2" class="func">
+			随机提问
+	</navigator>
+	<navigator url="/pages/teacher/tch_func/func3/func3" class="func">
+			在线签到
+	</navigator>
+	<navigator url="/pages/teacher/tch_func/func4/func4" class="func">
+			课堂展示
+	</navigator>
+	<navigator url="/pages/teacher/tch_func/func5/func5" class="func">
+			学生组队
+	</navigator>
+</scroll-view>

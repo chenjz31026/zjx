@@ -1,0 +1,24 @@
+.funcbox{
+	width: 100%;
+}
+.funcbox .func{
+	width: 60%;
+	text-align: center;
+	line-height: 100rpx;
+	font-size: 40rpx;
+	background-color:lightgray;
+	border:4rpx solid #00b26a;
+	margin:auto;
+	margin-top: 50rpx;
+}
+.headerbar{
+	background-color:#bcbd7c;
+	text-align: center;
+	padding: 10rpx;
+	line-height: 100rpx;
+	font-size: 50rpx;
+}
+.headerbar .icon{
+	padding-top: 30rpx;
+	height: 40rpx;
+}
