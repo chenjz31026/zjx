@@ -1,0 +1,106 @@
+/* pages/tch_anser/tch_anser.wxss */
+
+.h {
+  background-color: #464E2E;
+  display: flex;
+  font-size: 50rpx; 
+  color: #FFFFFF;
+  height: 30px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;  
+  text-align: center;
+}
+
+.num{
+  height: 100px;
+  width: 100%;
+}
+
+.class{
+  background-color: #ffffff;
+  width: 100%;
+  height: 90px;
+  margin-top: 10px;
+  box-shadow:0px 0px 2px 2px rgba(0, 0, 0, 0.24);  
+  padding-left: 10px;
+}
+
+.more{
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  height: 50px;
+  margin-top: 10px;
+  box-shadow:0px 0px 2px 2px rgba(0, 0, 0, 0.24);
+}
+
+.star{
+  display: flex;
+  background-color: rgb(253, 253, 253);
+  width: 100%;
+  height: auto;
+  float: left;
+  margin-top: 10px;
+}
+
+page {
+  background-color: #F2F2F2;
+}
+
+
+/* 未选中的背景样式 */
+checkbox .wx-checkbox-input{
+  width: 28rpx; 
+  height: 28rpx;
+  border-color: #464E2E;
+}
+
+/* 选中后的背景样式 */
+checkbox .wx-checkbox-input.wx-checkbox-input-checked,.checked{
+  background-color: #464E2E;
+  border-color: #464E2E;
+}
+
+/* 选中后的勾子样式 */
+checkbox .wx-checkbox-input.wx-checkbox-input-checked::before{
+  width: 40rpx;
+  height: 40rpx;
+  line-height: 40rpx;
+  border-radius: 50%;
+  text-align: center;
+  font-size:32rpx; 
+  color: #ffffff; 
+  background: transparent;
+  transform:translate(-50%, -50%) scale(1);
+  -webkit-transform:translate(-50%, -50%) scale(1);
+}
+.page-section-title{
+  text-align: left;
+  color: #ACB992;
+}
+
+.page-section-title2{
+  color: #ACB992;
+  position: absolute;
+  width: 100%;
+  text-align: right;
+  margin-right: 30px;
+}
+.weui-cells weui-cells_after-title{
+  width: 100%;
+  height: auto;
+}
+input{
+  height: 50px;width: 50px;
+  padding: 0,10px;
+  background-color: white;
+}
+.res{
+  position: relative;
+  padding: 30rpx;
+  top: 100rpx;
+}
+.res .name{
+  padding: 20rpx;
+  border-bottom: 4rpx solid #ccc;
+}

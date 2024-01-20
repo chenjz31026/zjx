@@ -1,0 +1,63 @@
+
+<view class="h" style="text-align: center;">
+  <text>抢 答</text>
+</view>
+
+<view class="num">
+  <view style="float: left; margin:15px;margin-left: 40px;">
+  <text style="color: #ACB992;">抢答名额</text>
+    <input type="number" model:value="{{robnum}}" style="text-align: center;font-size: 30px;"/>
+  </view>
+  <view style="float: right;margin: 15px;margin-right: 40px;">
+    <text style="color: #ACB992;">总人数</text>
+    <view style="font-size: 30px;">{{allnum}}</view>
+    <view>
+      
+    </view>
+  </view>
+</view>
+
+<view class="class">   <!-- 多选框 -->
+    <view class="page-body">
+        <view class="page-section">
+            <view class="page-section-title" style="white-space: normal;">班级</view>
+            <view class="weui-cells weui-cells_after-title">
+                <checkbox-group bindchange="checkboxChange">
+                    <label  wx:for="{{classarr}}" wx:key="id">
+                        <view >
+                         <view>{{item.name}}
+                           <checkbox value="{{item.id}}" model:checked="{{item.checked}}"  style="float: right;margin-right: 15px;"/>
+                         </view>
+                        </view>                       
+                    </label>
+                </checkbox-group>
+            </view>
+            <view class="page-section-title2">全选
+              <checkbox-group bindchange="checkboxAll" style="text-align: right; margin-right: 15px;padding-left: 10px;float: right;">
+              <checkbox model:checked="{{checkedAll}}" />
+            </checkbox-group>           
+            </view>
+        </view>
+    </view>
+</view>
+
+<!-- <view class="more">
+  <text style="color: #ACB992;padding-left: 10px;">其他</text>
+  <view>
+    <text style="padding-left: 10px;">已抢答者优先级降低</text>
+    <checkbox style="float: right;margin-right: 10px;"></checkbox>
+  </view>
+
+</view> -->
+
+<view class="star">
+  <button type="primary" bind:tap="onsubmit">开始</button>
+  <button type="primary" bind:tap="reset">重置</button>
+</view>
+
+<view class="res">
+  <view class="name" wx:for="{{robstu}}" wx:key="id">
+    {{index+1}}. {{item.name}}
+  </view>
+</view>
+
