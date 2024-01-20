@@ -1,0 +1,4 @@
+[submodule "pages/student/stu_fun/func1"]
+	url  = https://gitee.com/zstar0615/classroom-qa-kit
+	path = pages/student/stu_fun/func1
+
