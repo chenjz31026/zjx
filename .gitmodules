@@ -2,7 +2,3 @@
 	url  = https://gitee.com/zstar0615/classroom-qa-kit
 	path = pages/student/stu_fun/func1
 
-[submodule "miniprogram/pages/student/stu_func/func1"]
-	url  = https://gitee.com/zstar0615/classroom-qa-kit
-	path = miniprogram/pages/student/stu_func/func1
-
